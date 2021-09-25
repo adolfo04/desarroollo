@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Parcial</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <H2 style="text-align:center"> Registro de Estudiantes </H2>
+    <div class="reserva">
+        <H3 style="text-align:center">CENTRO RECREATIVO</H3>
+        <h1 style="text-align:center"><b>"EL ESTUDIANTE"</b></h1>
+        
+    </div>
+    <div class="formulario">
+      
+    </div>
+
+    <form onsubmit="return valida(this)" action="pag.php" method="post">
+        
+        <label for="cui">CUI:</label>
+        <input type="text" name = "cui" id="cui" placeholder="Escriba su CUI"><br><br><br>
+       
+        <label for="pnombre">Primer Nombre:</label>
+        <input type="text" name = "primernombre" id="primernombre" placeholder="Escriba Primer Nombre"><br>
+
+        <label for="snombre">Segundo Nombre:</label>
+        <input type="text" name = "segundonombre" id="segundonombre" placeholder="Escriba Segundo Nombre"><br>
+
+        <label for="papellido">Primer Apellido:</label>
+        <input type="text" name = "primerapellido" id="primerapellido" placeholder="Escriba Primer Apellido"><br>
+
+        <label for="sapellido">Segundo Apellido:</label>
+        <input type="text" name = "segundoapellido" id="segundoapellido" placeholder="Escriba Segundo Apellido"><br><br>
+
+
+        <label for="edad">Edad:</label>
+        <input type="text" name = "edad" id="edad" placeholder="Escriba su Edad"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name = "email"id="email" placeholder='Escriba su correo electronico'><br><br>
+
+        <label for="telefono">Telefono:</label>
+        <input type="text" name = "telefono"id="telefono" placeholder='Escriba su numero telefonico'><br><br>
+
+        <label for="Universidad">Seleccione Su Universidad:</label><br>
+        <select name="select" id="uni">
+                <option value="UMG - Universidad Mariano Galvez">UMG - Universidad Mariano Galvez</option>
+                <option value="USAC - Universidad San Carlos">USAC - Universidad San Carlos</option>
+                <option value="UVG - Universidad del Valle">UVG - Universidad del Valle</option>
+        </select>
+        <label for="promedio">Promedio:</label>
+        <input type="text" name = "promedio" id="promedio" placeholder='Escriba su Promedio'><br><br>
+        <br><br>
+        
+        <button type="submit" style="text-align:center">Enviar</button>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
