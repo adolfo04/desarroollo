@@ -1,0 +1,65 @@
+<! DOCTYPE html >
+< html  lang = " en " >
+
+< cabeza >
+    < meta  charset = " UTF-8 " >
+    < meta  http-equiv = " X-UA-Compatible " content = " IE = edge " >
+    < meta  name = " viewport " content = " width = device-width, initial-scale = 1.0 " >
+    < título > DESARROLLO WEB </ título >
+    < link  rel = " stylesheet " href = " estilos.css " >
+</ cabeza >
+
+< cuerpo >
+
+    < H2  style = " text-align: center " > INGRESO DE DATOS </ H2 >
+    < div  class = " reserva " >
+        < H3  style = " text-align: center " > FORMULARIO DE FACTURA </ H3 >
+        
+    </ div >
+    < div  class = " formulario " >
+      
+    </ div >
+
+    < form  onsubmit = " return valida (this) " action = " pag.php " method = " post " >
+        
+        < label  for = " cui " > NIT: </ label >
+        < Entrada  tipo = " texto " nombre =" cui " ID =" cui " marcador de posición =" Escriba su NIT " > < br > < br > < br >
+       
+        < label  for = " pnombre " > Primer Nombre: </ label >
+        < Entrada  tipo = " texto " nombre =" primernombre " ID =" primernombre " marcador de posición =" Escriba Primer Nombre " > < br >
+
+        < label  for = " snombre " > Segundo Nombre: </ label >
+        < Entrada  tipo = " texto " nombre =" segundonombre " ID =" segundonombre " marcador de posición =" Escriba Segundo Nombre " > < br >
+
+        < label  for = " pasent " > Primer Apellido: </ label >
+        < Entrada  tipo = " texto " nombre =" primerapellido " ID =" primerapellido " marcador de posición =" Escriba Primer Apellido " > < br >
+
+        < label  for = " saxt " > Segundo Apellido: </ label >
+        < Entrada  tipo = " texto " nombre =" segundoapellido " ID =" segundoapellido " marcador de posición =" Escriba Segundo Apellido " > < br > < br >
+
+
+        < label  for = " edad " > Edad: </ label >
+        < Entrada  tipo = " texto " nombre =" Edad " ID =" Edad " marcador de posición =" Escriba su Edad " > < br > < br >
+
+        < label  for = " email " > Correo electrónico: </ label >
+        < Entrada de  tipo = " email " nombre =" email " ID =" email " marcador de posición = ' Escriba su Correo electronico ' > < br > < br >
+
+        < label  for = " telefono " > Telefono: </ label >
+        < Entrada  tipo = " texto " nombre =" telefono " ID =" telefono " marcador de posición = ' Escriba su numero telefonico ' > < br > < br >
+
+        < Etiqueta  para = " Universidad " > Seleccione su tienda: </ etiqueta > < br >
+        < select  name = " select " id = " uni " >
+                < option  value = " CENTRAL " > CENTRAL </ option >
+                < opción  valor = " PASAC 1 " > PASAC 1 </ opción >
+                < option  value = " SALCAJA " > SALCAJA </ option >
+        </ seleccionar >
+       < Br >
+        </ br >
+        
+        < button  type = " submit " style = " text-align: center " > Enviar </ button >
+    </ formulario >
+
+    < script  src = " main.js " > </ script >
+</ cuerpo >
+
+</ html >
