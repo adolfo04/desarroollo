@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <title>Calcular El Descuento</title>
+  <title>DESCUENTO PARA TIENDA</title>
   <link rel="stylesheet" href="estilos.css">
 </head>
 
