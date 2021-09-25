@@ -13,7 +13,7 @@
 
     <H2 style="text-align:center"> INGRESO DE DATOS </H2>
     <div class="reserva">
-        <H3 style="text-align:center">INVENTARIO DE VENTAS</H3>
+        <H3 style="text-align:center">FORMULARIO DE FACTURA</H3>
         <h1 style="text-align:center"><b>"EBEN EZER"</b></h1>
         
     </div>
@@ -23,8 +23,8 @@
 
     <form onsubmit="return valida(this)" action="pag.php" method="post">
         
-        <label for="cui">CUI:</label>
-        <input type="text" name = "cui" id="cui" placeholder="Escriba su CUI"><br><br><br>
+        <label for="cui">NIT:</label>
+        <input type="text" name = "cui" id="cui" placeholder="Escriba su NIT"><br><br><br>
        
         <label for="pnombre">Primer Nombre:</label>
         <input type="text" name = "primernombre" id="primernombre" placeholder="Escriba Primer Nombre"><br>
@@ -48,15 +48,14 @@
         <label for="telefono">Telefono:</label>
         <input type="text" name = "telefono"id="telefono" placeholder='Escriba su numero telefonico'><br><br>
 
-        <label for="Universidad">Seleccione Su Universidad:</label><br>
+        <label for="Universidad">Seleccione Su tienda:</label><br>
         <select name="select" id="uni">
                 <option value="CENTRAL">CENTRAL</option>
                 <option value="PASAC 1">PASAC 1</option>
                 <option value="SALCAJA">SALCAJA</option>
         </select>
-        <label for="promedio">Promedio:</label>
-        <input type="text" name = "promedio" id="promedio" placeholder='Escriba su Promedio'><br><br>
-        <br><br>
+       <br>
+        </br>
         
         <button type="submit" style="text-align:center">Enviar</button>
     </form>
