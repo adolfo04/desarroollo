@@ -47,14 +47,8 @@ function valida(f) {
         val = false;
     }
 
-    var vprom = document.getElementById('promedio').value;
-    if ( vprom == '' || isNaN(vprom) ) {
-        mensaje += '- Promedio no Valido';
-        val = false;
-    }
-
     if (document.getElementById('uni').value == '') {
-        mensaje += '- Universidad';
+        mensaje += '- TIENDA';
         val = false;
     }
 
